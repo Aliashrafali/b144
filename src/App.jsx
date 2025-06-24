@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css'
-import First from './components/First'
+import Bootstrap from './components/Bootstrap'
+// import First from './components/First'
 
 function App() {
   return (
     <>
-      <First />
+      {/* <First /> */}
+      <Bootstrap />
     </>
   )
 }

@@ -1,11 +1,28 @@
 import React from "react";
+import '../assets/styles/main.css'
 
 const First = () =>{
     return(
         <>
-            <h1>Hello External Components</h1>
+            <div className="whole-card">
+                <div className="card">
+
+                </div>
+                <div className="card">
+
+                </div>
+                <div className="card">
+
+                </div>
+                <div className="card">
+
+                </div>
+                <div className="card">
+
+                </div>
+            </div>
         </>
     )
 }
 
-export default First    // you can import or call in any file
+export default First   
